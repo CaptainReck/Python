@@ -1,2 +1,4 @@
-for i in range(7,4,-2):
-    print(i)
+x=1
+while(x<=5):
+    x+1
+print(x)
