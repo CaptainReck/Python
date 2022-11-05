@@ -1,0 +1,17 @@
+def median(x):
+  if len(x)>1:
+      n=[]
+      for i in x:
+        if i not in n:
+          n.append(i) 
+      n=sorted(n)
+      if len(n)%2==0:
+        med=(n[len(n)//2]+n[len(n)//2+1])/2.0
+      else:
+        med=n[(len[n]+1)//2]
+  else:
+       med=x[0]   
+  return med
+l=[3,2,65,1,6,7,]   
+print(median(l))
+
